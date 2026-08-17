@@ -34,7 +34,7 @@ void loop() {
   if (status != STATUS_OK) {
     neopixelWrite(RGB_BUILTIN,0,RGB_BRIGHTNESS,0); // red
   } else {
-    neopixelWrite(RGB_BUILTIN,0,0,RGB_BRIGHTNESS); // green
+    neopixelWrite(RGB_BUILTIN,0,0,RGB_BRIGHTNESS); // blue
     float temperature = thermoCouple.getTemperature();
     btTemp = temperature;
     etTemp = temperature;
