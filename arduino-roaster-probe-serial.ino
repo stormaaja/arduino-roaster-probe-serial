@@ -25,7 +25,7 @@ void setup() {
       ;
     Serial.println("Connected.");
   }
-  neopixelWrite(RGB_BUILTIN,RGB_BRIGHTNESS,0,0);
+  neopixelWrite(RGB_BUILTIN,RGB_BRIGHTNESS,0,0); // green
 }
 
 void loop() {
